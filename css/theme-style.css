@@ -367,6 +367,8 @@ body a{
 	height: 213px;
 }
 .contact input[type="submit"]{
+	border-radius: 10px;
+	border:none;
 	float: right;
 	margin: 1em 0 0 0;
 	transition: 0.5s all;
