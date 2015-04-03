@@ -8,23 +8,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 	<head>
 		<title>Ceres Nogueira</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
+		
 		<!--webfonts-->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
 		<!--//webfonts-->
+		
 		<!--requred-js-files-->
 	    <script src="js/jquery.min.js"></script>
 	    <script src="js/bootstrap.min.js"></script>
 		<!--//requred-js-files-->
+		
+		<script type="application/x-javascript"> 
+			addEventListener(
+				"load", 
+				function() { 
+					setTimeout(hideURLbar, 0); 
+				}, 
+				false
+			); 
+
+			function hideURLbar(){ 
+				window.scrollTo(0,1); 
+			} 
+		</script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) { 
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+				});
+			});
+		</script>
 	</head>
 	<body>
+		<section id="header" class="appear"></section>
 		<!--start-bg-->
 		<div class="bg">
 			<!--start-container-->
@@ -234,11 +259,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 				</div>
-				
+
 				<!--//End-footer-->
 			<!--//End-container-->
 		
 	<!--start-bg-->
+	<a href="#header" class="scroll"><span class="glyphicon glyphicon-chevron-up"></span></a>	
 	</body>
 </html>
 
