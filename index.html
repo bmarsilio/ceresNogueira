@@ -124,7 +124,9 @@
 							<div class="item">
 								<br />
 								<div class="slide-banner-left">
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/f8PkPdV83Q4?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+									<div class="video-bg">
+										<a data-toggle="modal" data-target=".bs-example-modal-lg" href="#"> </a>
+									</div>
 								</div>
 								<br />
 								<br />
@@ -268,10 +270,26 @@
 		</div>
 
 		<!--//End-footer-->
-	<!--//End-container-->
+		<!--//End-container-->
 
-	<!--start-bg-->
-	<a href="#header" class="scroll"><span class="glyphicon glyphicon-chevron-up"></span></a>	
+		<!--start modal video box-->
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></button>
+					<br />
+					<hr />
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/f8PkPdV83Q4?enablejsapi=1&feature=player_detailpage&autoplay=1" allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!--end modal video box-->
+
+		<!--start-bg-->
+		<a href="#header" class="scroll"><span class="glyphicon glyphicon-chevron-up"></span></a>	
 	</body>
 </html>
 

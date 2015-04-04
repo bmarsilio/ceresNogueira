@@ -293,6 +293,8 @@ body a{
 }
 .video-bg a:hover{
 	opacity:0.9;
+	background-color: #EE3C2E;
+	border-radius: 50px;
 }
 /*-----light-box-----*/
 .light-box-info h3{
