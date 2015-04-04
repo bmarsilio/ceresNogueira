@@ -71,7 +71,7 @@ body a{
 .slide-banner-left p{
 	color: #C5D2E5;
 	font-size: 1.5em;
-	width: 64%;
+	/*width: 64%;*/
 	margin: 2em 0 2.5em;
 }
 .b-btn{
@@ -1250,7 +1250,7 @@ img.mfp-img {
 	.slide-banner-left p {
 		color: #C5D2E5;
 		font-size: 1.5em;
-		width: 100%;
+		/*width: 100%;*/
 		margin: 1em 0;
 	}
 	.slide-banner span{
@@ -1345,7 +1345,7 @@ img.mfp-img {
 	.slide-banner-left p {
 		color: #C5D2E5;
 		font-size: 1.5em;
-		width: 100%;
+		/*width: 100%;*/
 		margin: 1em 0;
 	}
 	.slide-banner span{
@@ -1444,7 +1444,7 @@ img.mfp-img {
 	.slide-banner-left p {
 		color: #C5D2E5;
 		font-size: 1.5em;
-		width: 100%;
+		/*width: 100%;*/
 		margin: 1em 0;
 	}
 	.slide-banner span{
@@ -1554,7 +1554,7 @@ img.mfp-img {
 	.slide-banner-left p {
 		color: #C5D2E5;
 		font-size: 1.5em;
-		width: 100%;
+		/*width: 100%;*/
 		margin: 1em 0;
 	}
 	.slide-banner span{
@@ -1687,4 +1687,68 @@ a.scroll:hover{
 
 .login-info img{
 	border-radius: 15px;
+}
+
+.carousel-inner{
+    background-color: #F6F6F7;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.carousel-inner h1{
+    color: #000000;
+}
+
+.carousel-inner p{
+    color: #000000;
+}
+
+.formCliente{
+	background-color: #626262;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formCliente input[type="text"]:hover,.contact input[type="text"]:focus,input[type="email"]:hover,.contact input[type="email"]:focus{
+	border: 2px solid #58688A;
+}
+
+.formCliente input[type="submit"]:hover{
+	background:#58688A;
+}
+
+.formCliente input[type="submit"]{
+	border-radius: 15px;
+	border:none;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	font-size: 1.5em;
+}
+
+.formCliente label{
+	color: #6680B3;
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 0.2em;
+	text-align: left;
+	text-shadow: 0 0 3px #000000;
+}
+
+.formCliente input[type="text"],input[type="email"]{
+	border-radius: 4px;
+	font-family: 'Open Sans', sans-serif;
+	outline: none;
+	border: 2px solid #42454A;
+	transition: border-color 0.3s;
+	-o-transition: border-color 0.3s;
+	-ms-transition: border-color 0.3s;
+	-moz-transition: border-color 0.3s;
+	-webkit-transition: border-color 0.3s;
+	-webkit-appearance: none;
+	padding: 1.15em;
+	background: #B9C1C0;
+	width: 100%;
+	resize: none;
+	font-size: 1.3em;
 }
