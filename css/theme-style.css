@@ -1684,3 +1684,7 @@ a.scroll:hover{
 	opacity:1;
 	color:#2D3035;
 }
+
+.login-info img{
+	border-radius: 15px;
+}
