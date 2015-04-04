@@ -26,7 +26,10 @@
 				//adicionar a todos 'a href' o efeito de scroll
 				$("a").click(function(event){
 					event.preventDefault();
+					//adiciona delay no scroll da pagina
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+					//pausa carousel
+					$('#initial-carousel').carousel('pause');
 				});
 			});
 		</script>
@@ -121,7 +124,7 @@
 								</div>
 							</div>
 
-							<div class="item">
+							<div class="item" id="carousel-video">
 								<br />
 								<div class="slide-banner-left">
 									<div class="video-bg">
