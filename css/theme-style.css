@@ -22,6 +22,7 @@ body a{
 .bg{
 	/*background:url(../images/head-bg.jpg) no-repeat 0px 0px;*/
 	margin-top: 110px;
+	background-color: #FFFFFF;
 }
 /*----start-header----*/
 .header{
