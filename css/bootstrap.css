@@ -4404,7 +4404,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #CA3737;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -4415,7 +4415,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #CA3737;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -6218,13 +6218,12 @@ button.close {
   content: '\203a';
 }
 .carousel-indicators {
-  position: absolute;
   bottom: 10px;
-  left: 50%;
+  left: 25%;
   z-index: 15;
   width: 60%;
   padding-left: 0;
-  margin-left: -30%;
+  margin-left: -20%;
   text-align: center;
   list-style: none;
 }
@@ -6235,16 +6234,15 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  background-color: #FFFFFF;
+  border: 1px solid #707070;
   border-radius: 10px;
 }
 .carousel-indicators .active {
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   margin: 0;
-  background-color: #fff;
+  background-color: #CB5D5E;
 }
 .carousel-caption {
   position: absolute;

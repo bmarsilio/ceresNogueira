@@ -20,7 +20,7 @@ body a{
 	-o-transition:0.5s all;
 }
 .bg{
-	background:url(../images/head-bg.jpg) no-repeat 0px 0px;
+	/*background:url(../images/head-bg.jpg) no-repeat 0px 0px;*/
 	margin-top: 110px;
 }
 /*----start-header----*/
@@ -271,6 +271,15 @@ body a{
 .video h4{
 	color: #4B596C;
 	font-size: 2.3em;
+	margin: 1em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	font-weight: 600;
+}
+
+.video h5{
+	color: #4B596C;
+	font-size: 1.7em;
 	margin: 1em;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.8em;
@@ -1709,6 +1718,8 @@ a.scroll:hover{
 .formCliente{
 	background-color: #626262;
 	font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+    text-align:center
 }
 
 .formCliente input[type="text"]:hover,.contact input[type="text"]:focus,input[type="email"]:hover,.contact input[type="email"]:focus{
@@ -1717,6 +1728,7 @@ a.scroll:hover{
 
 .formCliente input[type="submit"]:hover{
 	background:#CA3737;
+	float: right;
 }
 
 .formCliente input[type="submit"]{
@@ -1764,4 +1776,8 @@ a.scroll:hover{
 
 .principal-carousel{
 	margin-left: -15px;
+}
+
+.redes-sociais:hover{
+	opacity:0.8;
 }

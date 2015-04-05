@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Ceres Nogueira</title>
+		<title>Determinar Sua Vida - Ceres Nogueira</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!--required css files-->
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+		<!--<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />-->
 		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
 		<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
 		<!--end required css files-->
@@ -14,6 +14,7 @@
 		<!--webfonts-->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 		<!--end webfonts-->
 		
 		<!--requred-js-files-->
@@ -36,12 +37,24 @@
 
 		<style type="text/css">
 			.titulo-pagina,.navbar-nav{
-				margin-top: 15px;
+				margin-top: 30px;
+				
 			}
 
-			.active{
-				margin-left: 10px;
-				color:#FFFFFF;
+			.font-tangerine{
+				font-family: 'Tangerine', serif;
+				font-size: 2.9em;
+				font-weight: bold;
+			}
+
+			.navbar-strong{
+				color: #4B596C;
+				font-size: 1.5em;
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			.navbar-strong:hover{
+				color: #C64C4E;
 			}
 		</style>
 	</head>
@@ -63,21 +76,32 @@
 						<a class="navbar-brand" href="#">
 							<img alt="Brand" src="images/img_topo.jpg" class="img-navbar">
 						</a>
-						<a class="titulo-pagina" href="#">
-							<a class="navbar-brand" href="#header">Determinar Sua Vida</a>
-						</a>
+							<a class="navbar-brand titulo-pagina font-tangerine" href="">Determinar Sua Vida</a>
+
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">							
-							<li class="active"><a href="#quemSomos">Quem Somos</a></li>
-							<li class="active"><a href="#faleConosco">Fale Conosco</a></li>
+							<li><a href="#quemSomos"><span class="glyphicon glyphicon-question-sign"></span><strong class="navbar-strong"> Quem Somos</strong></a></li>
+							<li><a href="#faleConosco"><span class="glyphicon glyphicon-comment"></span><strong class="navbar-strong"> Fale Conosco</strong></a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="https://www.facebook.com/ceres.noz" target="_blank"><img src="images/02_facebook.png"></a></li>
-							<li><a href="intent://send/2196958800#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><img src="images/04_whatsapp.png" target="_blank"></a></li>
-							<li><a href="https://www.youtube.com/user/Cerespandora/videos" target="_blank"><img src="images/03_youtube.png"></a></li>
+							<li>
+								<a href="https://www.facebook.com/ceres.noz">
+									<img class="redes-sociais" src="images/02_facebook.png">
+								</a>
+							</li>
+							<li>
+								<a href="intent://send/2196958800#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
+									<img class="redes-sociais" src="images/04_whatsapp.png">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/user/Cerespandora/videos">
+									<img class="redes-sociais" src="images/03_youtube.png">
+								</a>
+							</li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
@@ -109,9 +133,9 @@
 							<input type="text" class="form-control" id="telefone" placeholder="DDD + Telefone">
 						</div>
 
-						<input type="submit" class="btn btn-default" value="Enviar" >
+						<input type="submit" class="btn btn-default" value="Enviar">
 						<hr />
-						<small>Prometemos nÃ£o utilizar suas informaÃ§Ãµes de contato para enviar qualquer tipo de SPAM.</small>
+						<small>Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</small>
 						<br />
 						<br />
 					</form>
@@ -134,7 +158,7 @@
 								<div class="slide-banner-left" >
 									<h1>Impulsione a sua carreira com o Coaching!</h1>
 									<p>
-										FaÃ§a como mais de <strong>200 mil pessoas</strong> que jÃ¡ passaram por nossas formaÃ§Ãµes, palestras e workshops.
+										Faça como mais de <strong>200 mil pessoas</strong> que já passaram por nossas formações, palestras e workshops.
 									</p>
 								</div>
 							</div>
@@ -148,9 +172,9 @@
 
 							<div class="item">
 								<div class="slide-banner-left">
-									<h1>Lembre-se de preencher o formulÃ¡rio ao lado!</h1>
+									<h1>Lembre-se de preencher o formulário ao lado!</h1>
 									<p>
-										O preenchimento do formulÃ¡rio ao lado Ã© muito importante.
+										O preenchimento do formulário ao lado é muito importante.
 									</p>
 								</div>
 							</div>
@@ -178,7 +202,45 @@
 						<h4>Quem Somos</h4>
 					</div>
 					<div class="top-grid-center col-md-12">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Somos um site dirigido pela Coach Ceres Nogueira formada pelo Instituto Brasileiro de Coaching <a href="www.ibccoaching.com.br">www.ibccoaching.com.br</a>, e que tem como propósito transformar pessoas comuns em pessoas de sucesso através do Treinamento em Desenvolvimento Humano na Era Digital.</p>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="video">
+						<h5>Palavras da Coach Ceres Nogueira para você</h5>
+					</div>
+					<div class="top-grid-center col-md-12">
+						<p>
+							Você Acredita que se ajudar é bom? Você acredita que ajudar a outras pessoas é bom? Sua resposta sendo sim temos então algo muito forte em comum! 
+						</p>
+						<p>
+							Na minha vida o que me enche de alegria é saber que efetivamente estou me fazendo bem e fazendo bem ao próximo, por isso desenvolvo esse trabalho com muito amor e paixão, pois é exatamente o que sinto quando realizo algo como esse site que carinhosamente chamo de Determinar.
+						</p>
+						<p>
+							Desde pequena amo ler e estudar, mas do que qualquer outra coisa, das quais amo, essas são as que me trazem mais paz.
+						</p>
+						<p>
+							Sua paixão especial só você sabe, mas eu desejo que descubra que é apaixonado por você e que você merece se realizar com muito amor todos os dias.
+						</p>
+						<p>
+							Por isso sei que posso te ajudar, fazendo com que se apaixone cada vez mais por você, fazendo com que se conheça mais e melhor, até chegar ao ponto de conseguir se amar por inteiro, de forma intensa e constante, respeitando até os próprios erros, pois esses merecem atenção e respeito, e com isso seja mais feliz com você mesmo e com todos que o cercam.
+						</p>
+						<p>
+							Seja Bem Vindo! Desejo que saiba que te respeito profundamente, e que você é especial e importante pra mim por ter chegado até aqui e ter, ser e estar exatamente como é.
+						</p>
+						<p>
+							Por isso te agradeço! Afinal você me ajuda a realizar meu trabalho completamente apaixonada e com muito amor!
+						</p>
+						<p>
+							Muito Obrigada!
+						</p>
+						<p>
+							Atenciosamente
+						</p>
+						<p>
+							Sua Coach Ceres Nogueira
+						</p>
 					</div>
 				</div>
 			</div>
@@ -197,7 +259,15 @@
 						<h4>Fale Conosco</h4>
 					</div>
 					<div class="top-grid-center col-md-12">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>
+							<a href="" mailto="contato@determinar.com.br">contato@determinar.com.br</a>
+						</p>
+						<p>
+							<a href="" mailto="comercial@determinar.com.br">comercial@determinar.com.br</a>
+						</p>
+						<p>
+							<a href="" mailto="ceres@determinar.com.br">ceres@determinar.com.br</a>
+						</p>
 					</div>
 				</div>
 			</div>
