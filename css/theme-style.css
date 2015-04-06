@@ -1724,7 +1724,7 @@ a.scroll:hover{
     text-align:center
 }
 
-.formCliente input[type="text"]:hover,.contact input[type="text"]:focus,input[type="email"]:hover,.contact input[type="email"]:focus{
+.formCliente input[type="text"]:hover,.contact input[type="text"]:focus,input[type="email"]:hover,.contact input[type="email"]:focus,input[type="tel"]:hover,.contact input[type="tel"]:focus{
 	border: 2px solid #C64C4E;
 }
 
@@ -1753,7 +1753,7 @@ a.scroll:hover{
 	text-shadow: 0 0 1px #000000;
 }
 
-.formCliente input[type="text"],input[type="email"]{
+.formCliente input[type="text"],input[type="email"],input[type="tel"]{
 	border-radius: 4px;
 	font-family: 'Open Sans', sans-serif;
 	outline: none;
