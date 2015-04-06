@@ -26,11 +26,8 @@
 			jQuery(document).ready(function($) { 
 				//adicionar a todos 'a href' o efeito de scroll
 				$("a").click(function(event){
-					event.preventDefault();
 					//adiciona delay no scroll da pagina
-					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
-					//pausa carousel
-					$('#initial-carousel').carousel('pause');
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
 				});
 			});
 		</script>
@@ -87,17 +84,17 @@
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="https://www.facebook.com/ceres.noz">
+								<a href="https://www.facebook.com/ceres.noz" target="_blank">
 									<img class="redes-sociais" src="images/02_facebook.png">
 								</a>
 							</li>
 							<li>
-								<a href="intent://send/2196958800#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">
+								<a href="intent://send/2196958800#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end" target="_blank">
 									<img class="redes-sociais" src="images/04_whatsapp.png">
 								</a>
 							</li>
 							<li>
-								<a href="https://www.youtube.com/user/Cerespandora/videos">
+								<a href="https://www.youtube.com/user/Cerespandora/videos" target="_blank">
 									<img class="redes-sociais" src="images/03_youtube.png">
 								</a>
 							</li>
