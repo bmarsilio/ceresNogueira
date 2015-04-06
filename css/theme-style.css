@@ -1796,3 +1796,14 @@ a.scroll:hover{
 	background:url(../images/slide3.jpg) no-repeat 0px 0px;
 	background-size: cover;
 }
+
+#quemSomos{
+	background:url(../images/quemSomos.jpg) no-repeat 0px 0px;
+	background-size: cover;
+}
+
+#quemSomos p{
+	color:#FFFFFF;
+	font-weight: bold;
+	text-shadow: 1px 1px #4B596C;
+}
