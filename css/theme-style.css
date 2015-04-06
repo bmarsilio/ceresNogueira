@@ -299,9 +299,9 @@ body a{
 	display: inline-block;
 	background: url(../images/play-button.png) no-repeat 0px 0px;
 	position: absolute;
-	top: 30%;
+	top: 60%;
 	background-size: 100% 100%;
-	left: 10%;
+	left: 45%;
 }
 .play-video:hover{
 	opacity:0.9;
@@ -1720,12 +1720,11 @@ a.scroll:hover{
 .formCliente{
 	background-color: #626262;
 	font-family: 'Open Sans', sans-serif;
-    opacity: 0.9;
     text-align:center
 }
 
 .formCliente input[type="text"]:hover,.contact input[type="text"]:focus,input[type="email"]:hover,.contact input[type="email"]:focus,input[type="tel"]:hover,.contact input[type="tel"]:focus{
-	border: 2px solid #C64C4E;
+	border: 2px solid #CA3737;
 }
 
 .formCliente input[type="submit"]:hover{
@@ -1781,4 +1780,16 @@ a.scroll:hover{
 
 .redes-sociais:hover{
 	opacity:0.8;
+}
+
+#carousel-etapa-1{
+	background:url(../images/slide1.jpg) no-repeat 0px 0px;
+}
+
+#carousel-etapa-2{
+	background:url(../images/slide2.jpg) no-repeat 0px 0px;
+}
+
+#carousel-etapa-3{
+	background:url(../images/slide3.jpg) no-repeat 0px 0px;
 }
