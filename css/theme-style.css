@@ -29,6 +29,9 @@ body a{
 	padding: 1em 0;
 	background-color: #CB5D5E;
 }
+.minus-header{
+	padding: 1em 0;
+}
 .logo{
 	margin-top: 1em;
 }
@@ -292,21 +295,26 @@ body a{
 	background: url(../images/video-img.jpg) no-repeat 0px 0px;
 
 }*/
-
+/*
 .play-video{
 	height: 91px;
 	width: 90px;
 	display: inline-block;
-	background: url(../images/play-button.png) no-repeat 0px 0px;
+	background: url(../images/video-img-button.jpg) no-repeat 0px 0px;
 	position: absolute;
 	top: 60%;
 	background-size: 100% 100%;
 	left: 45%;
 }
+*/
 .play-video:hover{
 	opacity:0.9;
 	background-color: #EE3C2E;
 	border-radius: 50px;
+}
+.play-video{
+	position: relative;
+	left: 25%;
 }
 /*-----light-box-----*/
 .light-box-info h3{
@@ -1806,4 +1814,6 @@ a.scroll:hover{
 	color:#FFFFFF;
 	font-weight: bold;
 	text-shadow: 1px 1px #4B596C;
+	text-indent: 50px;
+	text-align: justify;
 }
