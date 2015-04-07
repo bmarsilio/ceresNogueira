@@ -1787,6 +1787,7 @@ a.scroll:hover{
 }
 .redes-sociais{
 	border-radius: 50px;
+	margin-top: -30px;
 }
 .redes-sociais:hover{
 	opacity:0.8;
@@ -1823,4 +1824,14 @@ a.scroll:hover{
 .not-active {
    pointer-events: none;
    cursor: default;
+}
+
+.link-navbar-right{
+	margin-top: 40px;
+	margin-left: 150px;
+}
+
+.link-navbar-left{
+	margin-top: 40px;
+	margin-left: 10px;
 }
