@@ -1785,7 +1785,9 @@ a.scroll:hover{
 .principal-carousel{
 	margin-left: -15px;
 }
-
+.redes-sociais{
+	border-radius: 50px;
+}
 .redes-sociais:hover{
 	opacity:0.8;
 }
