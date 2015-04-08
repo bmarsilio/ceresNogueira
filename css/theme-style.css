@@ -1848,3 +1848,9 @@ a.scroll:hover{
 .navbar-strong:hover{
 	color: #C64C4E;
 }
+
+.principal-carousel h1{
+	color:#FFFFFF;
+	font-weight: bold;
+	text-shadow: 1px 1px #4B596C;
+}
