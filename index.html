@@ -33,24 +33,53 @@
 		</script>
 
 		<style type="text/css">
-			.titulo-pagina,.navbar-nav{
-				margin-top: 30px;
+			/*
+			css adicionado para sobreescrever o margin-top do padrao do bootstrap
+			*/
+			.navbar-right{
+				margin-top: 0px;
 			}
 
-			.font-tangerine{
-				font-family: 'Tangerine', serif;
-				font-size: 2.9em;
-				font-weight: bold;
-			}
-
-			.navbar-strong{
-				color: #4B596C;
-				font-size: 1.5em;
-				font-family: 'Open Sans', sans-serif;
-			}
-
-			.navbar-strong:hover{
-				color: #C64C4E;
+			/*
+				css copiado para que o estouro da navbar ocorra antes
+				https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
+				http://www.bootply.com/120604
+			*/
+			@media (max-width: 1200px) {
+				.navbar-header {
+					float: none;
+				}
+				.navbar-left,.navbar-right {
+					float: none !important;
+				}
+				.navbar-toggle {
+					display: block;
+				}
+				.navbar-collapse {
+					border-top: 1px solid transparent;
+					box-shadow: inset 0 1px 0 #FFFFFF;
+				}
+				.navbar-fixed-top {
+					top: 0;
+					border-width: 0 0 1px;
+				}
+				.navbar-collapse.collapse {
+					display: none!important;
+				}
+				.navbar-nav {
+					float: none!important;
+					margin-top: 7.5px;
+				}
+				.navbar-nav>li {
+					float: none;
+				}
+				.navbar-nav>li>a {
+					padding-top: 10px;
+					padding-bottom: 10px;
+				}
+				.collapse.in{
+					display:block !important;
+				}
 			}
 		</style>
 	</head>
@@ -78,11 +107,21 @@
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">							
-							<li><a href="#quemSomos" class="link-navbar-right"><strong class="navbar-strong"> Quem Somos</strong></a></li>
-							<li><a href="#faleConosco" class="link-navbar-left"><strong class="navbar-strong"> Fale Conosco</strong></a></li>
-						</ul>
 						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#quemSomos" class="link-navbar">
+									<strong class="navbar-strong">
+										Quem Somos
+									</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#faleConosco" class="link-navbar">
+									<strong class="navbar-strong">
+										Fale Conosco
+									</strong>
+								</a>
+							</li>
 							<li>
 								<a href="https://www.facebook.com/ceres.noz" target="_blank">
 									<img class="redes-sociais" src="images/02_facebook.png">
