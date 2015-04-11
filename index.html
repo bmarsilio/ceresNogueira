@@ -26,8 +26,9 @@
 		<script type="text/javascript">
 			jQuery(document).ready(function($) { 
 				//adicionar a todos 'a href' o efeito de scroll
-				$("a").click(function(event){
+				$(".scroll-b").click(function(event){
 					//adiciona delay no scroll da pagina
+					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
 				});
 			});
@@ -100,27 +101,23 @@
 							<span class="icon-bar"></span>
 						</button>
 						
-						<a class="navbar-brand" href="#quemSomos">
+						<a class="navbar-brand scroll-b" href="#quemSomos">
 							<img alt="Brand" src="images/img_topo.jpg" class="img-navbar">
 						</a>
-						<a class="navbar-brand font-tangerine titulo-navbar" href="#quemSomos">Determinar Sua Vida</a>
+						<a class="navbar-brand font-tangerine titulo-navbar scroll-b" href="#quemSomos">Determinar Sua Vida</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="#quemSomos" class="link-navbar first-link">
-									<strong class="navbar-strong">
-										Quem Somos
-									</strong>
+								<a href="#quemSomos" class="link-navbar first-link scroll-b navbar-strong">
+									Quem Somos
 								</a>
 							</li>
 							<li>
-								<a href="#faleConosco" class="link-navbar">
-									<strong class="navbar-strong">
-										Fale Conosco
-									</strong>
+								<a href="#faleConosco" class="link-navbar scroll-b navbar-strong">
+									Fale Conosco
 								</a>
 							</li>
 							<li class="facebook">
@@ -340,7 +337,7 @@
 		<!--end modal video box-->
 
 		<!--start-bg-->
-		<a href="#header" class="scroll"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		<a href="#header" class="scroll scroll-b"><span class="glyphicon glyphicon-chevron-up"></span></a>
 	</body>
 </html>
 
