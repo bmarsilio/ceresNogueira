@@ -1820,19 +1820,6 @@ a.scroll:hover{
 	text-align: justify;
 }
 
-.not-active {
-   pointer-events: none;
-   cursor: default;
-}
-/*
-.link-navbar{
-	margin-top: 60px;
-}*/
-
-.titulo-pagina,.navbar-nav{
-	margin-top: 30px;
-}
-
 .font-tangerine{
 	font-family: 'Lato', serif;
 	font-size: 2.9em;
@@ -1853,4 +1840,102 @@ a.scroll:hover{
 	color:#FFFFFF;
 	font-weight: bold;
 	text-shadow: 1px 1px #4B596C;
+}
+
+/*inicio - ajustes da navbar - posicao dos links*/
+
+@media (max-width:1366px){
+	.link-navbar{
+		margin-top: 110px;
+	}
+	.img-navbar{
+		margin-top: 30px;
+	}
+	.titulo-navbar{
+		margin-top: 65px;
+	}
+	.youtube,.whatsapp,.facebook{
+		left: -180px;
+	}
+	.minus-header{
+		padding-top: 50px;
+	}
+}
+
+@media (max-width:1280px){
+	.link-navbar{
+		margin-top: 110px;
+	}
+	.img-navbar{
+		margin-top: 30px;
+	}
+	.titulo-navbar{
+		margin-top: 65px;
+	}
+	.youtube,.whatsapp,.facebook{
+		left: -180px;
+	}
+	.minus-header{
+		padding-top: 50px;
+	}
+}
+
+@media (max-width:1200px){
+	.link-navbar{
+		margin-top: 0px;
+	}
+	.img-navbar{
+		margin-top: 0px;
+		border:5px solid #FFFFFF;
+	}
+	.titulo-navbar{
+		margin-top: 35px;
+	}
+	.first-link{
+		margin-top: 30px;
+	}
+	.youtube,.whatsapp,.facebook{
+		left: 0px;
+	}
+	.whatsapp{
+		margin-top: -52px; margin-left: 50px;
+	}
+	.youtube{
+		margin-top: -52px; margin-left: 100px;
+	}
+	.minus-header{
+		padding-top: 25px;
+	}
+}
+
+
+@media (max-width:950px){
+	.titulo-navbar{
+		margin-top: 35px;
+	}
+	.first-link{
+		margin-top: 30px;
+	}
+}
+
+@media (max-width:850px){
+	.titulo-navbar{
+		margin-top: 35px;
+	}
+	.first-link{
+		margin-top: 30px;
+	}
+}
+
+@media (max-width:770px){
+	.titulo-navbar{
+		margin-top: 60px;
+		margin-bottom: 10px;
+	}
+	.first-link{
+		margin-top: 0px;
+	}
+	.minus-header{
+		padding-top: 50px;
+	}
 }
