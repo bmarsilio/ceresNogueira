@@ -33,57 +33,6 @@
 				});
 			});
 		</script>
-
-		<style type="text/css">
-			/*
-			css adicionado para sobreescrever o margin-top do padrao do bootstrap
-			*/
-			.navbar-right{
-				margin-top: 0px;
-			}
-
-			/*
-				css copiado para que o estouro da navbar ocorra antes
-				https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
-				http://www.bootply.com/120604
-			*/
-			@media (max-width: 1200px) {
-				.navbar-header {
-					float: none;
-				}
-				.navbar-left,.navbar-right {
-					float: none !important;
-				}
-				.navbar-toggle {
-					display: block;
-				}
-				.navbar-collapse {
-					border-top: 1px solid transparent;
-					box-shadow: inset 0 1px 0 #FFFFFF;
-				}
-				.navbar-fixed-top {
-					top: 0;
-					border-width: 0 0 1px;
-				}
-				.navbar-collapse.collapse {
-					display: none!important;
-				}
-				.navbar-nav {
-					float: none!important;
-					margin-top: 7.5px;
-				}
-				.navbar-nav>li {
-					float: none;
-				}
-				.navbar-nav>li>a {
-					padding-top: 10px;
-					padding-bottom: 10px;
-				}
-				.collapse.in{
-					display:block !important;
-				}
-			}
-		</style>
 	</head>
 
 	<body>
@@ -148,7 +97,7 @@
 			<div class="minus-header">&nbsp</div>
 			<!--start-container-->
 			<div class="container">
-				<div class="col-xs-12 col-sm-6 col-md-3 formCliente">
+				<div class="col-xs-12 col-sm-5 col-md-3 formCliente">
 					<br />
 					<form role="form">
 						<div class="form-group">
@@ -176,7 +125,37 @@
 
 				<div class="col-xs-12 col-sm-6 col-md-9 principal-carousel">
 					<!-- Carousel -->
-					<div id="initial-carousel" class="carousel slide" data-ride="carousel">
+					<div id="initial-carousel" class="carousel slide" data-ride="carousel">		
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner text-center">
+							
+							<div class="item active">
+								<div class="slide-banner-left" id="carousel-etapa-1">
+									<h1>Foca em você!</h1>
+									<br />
+									<h1>Faça como centenas de milhões de pessoas no Planeta!</h1>
+									<br />
+									<h1>Impulsione sua vida e carreira com o Seu Desenvolvimento!</h1>
+									<div class="height-carousel-slide1"></div>
+								</div>
+							</div>
+							
+							<div class="item">
+								<div class="slide-banner-left" id="carousel-etapa-2">
+									<!--<img class="img-responsive" src="images/video-img.jpg">-->
+									<h1>Como Participar Grátis?</h1>
+									<a class="play-video" data-toggle="modal" data-target=".bs-example-modal-lg" href="#"><img class="img-video-slide" src="images/video-img-button.jpg"></a>
+									<div class="height-carousel-slide2"></div>
+								</div>
+							</div>
+							
+							<div class="item">
+								<div class="slide-banner-left" id="carousel-etapa-3">
+									<h1>Cadastre seu Nome, e-mail e telefone e receba um teste comportamental agora! Com isso garanta encontrar nos próximos dias o mini curso gratuito em seu e-mail!</h1>
+									<div class="height-carousel-slide3"></div>
+								</div>
+							</div>
+						</div>
 						
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
@@ -184,39 +163,6 @@
 							<li data-target="#initial-carousel" data-slide-to="1"></li>
 							<li data-target="#initial-carousel" data-slide-to="2"></li>
 						</ol>
-							
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner text-center">
-							<div class="item active">
-								<div class="slide-banner-left" id="carousel-etapa-1">
-									<h1>Foca em você!</h1>
-									<h1>Faça como centenas de milhões de pessoas no Planeta!</h1>
-									<h1>Impulsione sua vida e carreira com o Seu Desenvolvimento!</h1>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="slide-banner-left" id="carousel-etapa-2">
-									<!--<img class="img-responsive" src="images/video-img.jpg">-->
-									<h1>Como Participar Grátis?</h1>
-									<a class="play-video" data-toggle="modal" data-target=".bs-example-modal-lg" href="#"><img class="img-responsive" src="images/video-img-button.jpg"></a>
-									<br />
-									<br />
-									<br />
-									<br />
-									<br />
-									<br />
-									<br />
-
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="slide-banner-left" id="carousel-etapa-3">
-									<h1>Cadastre seu Nome, e-mail e telefone e receba um teste comportamental agora! Com isso garanta encontrar nos próximos dias o mini curso gratuito em seu e-mail!</h1>
-								</div>
-							</div>
-						</div>
 					</div> 
 					<!-- End Carousel -->
 				</div>

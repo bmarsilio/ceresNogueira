@@ -1839,9 +1839,57 @@ a.scroll:hover{
 	font-weight: bold;
 	text-shadow: 1px 1px #4B596C;
 }
+.height-carousel-slide1{
+	height: 300px;
+}
+.height-carousel-slide2,.height-carousel-slide3{
+	height: 180px;
+}
 
-/*inicio - ajustes da navbar - posicao dos links*/
 
+/*
+	css copiado para que o estouro da navbar ocorra antes
+	https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
+	http://www.bootply.com/120604
+*/
+@media (max-width: 1200px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-left,.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 #FFFFFF;
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.collapse.in{
+		display:block !important;
+	}
+}
+
+/*FIM - ajustes da navbar - posicao dos links - ajustes imagem do video no carousel*/
 @media (max-width:1366px){
 	.link-navbar{
 		margin-top: 110px;
@@ -1857,6 +1905,15 @@ a.scroll:hover{
 	}
 	.minus-header{
 		padding-top: 50px;
+	}
+	.item{
+		margin-top: -20px;
+	}
+	.img-video-slide{
+		margin-left: -400px;
+	}
+	.carousel-inner{
+		max-height: 448px;
 	}
 }
 
@@ -1875,6 +1932,9 @@ a.scroll:hover{
 	}
 	.minus-header{
 		padding-top: 50px;
+	}
+	.carousel-inner{
+		max-height: 448px;
 	}
 }
 
@@ -1904,8 +1964,24 @@ a.scroll:hover{
 	.minus-header{
 		padding-top: 25px;
 	}
+	.img-video-slide{
+		margin-left: -300px;
+	}
+	.carousel-inner{
+		max-height: 468px;
+	}
 }
 
+@media (max-width:991px){
+	.img-video-slide{
+		width: 250px; 
+		height: 128px;
+		margin-left: -170px;
+	}
+	.carousel-inner{
+		max-height: 448px;
+	}
+}
 
 @media (max-width:950px){
 	.titulo-navbar{
@@ -1936,4 +2012,64 @@ a.scroll:hover{
 	.minus-header{
 		padding-top: 50px;
 	}
+	.item{
+		margin-top: -10px;
+	}
+	.img-video-slide{
+		width: 150px; 
+		height: 100px;
+		margin-left: -130px;
+	}
 }
+
+@media (max-width:760px){
+	.item{
+		margin-top: 5px;
+	}
+	.img-video-slide{
+		width: 300px; 
+		height: 178px;
+		margin-top: 20px;
+		margin-left: -250px;
+	}
+}
+
+@media (max-width:660px){
+	.img-video-slide{
+		width: 300px; 
+		height: 178px;
+		margin-top: 20px;
+		margin-left: -250px;
+	}
+}
+
+@media (max-width:600px){
+	.img-video-slide{
+		width: 250px; 
+		height: 128px;
+		margin-top: 20px;
+		margin-left: -220px;
+	}
+}
+
+@media (max-width:500px){
+	.img-video-slide{
+		margin-left: -130px;
+	}
+}
+
+@media (max-width:400px){
+	.img-video-slide{
+		margin-left: -110px;
+	}
+}
+
+@media (max-width:350px){
+	.img-video-slide{
+		width: 180px; 
+		height: 78px;
+		margin-left: -100px;
+	}
+}
+
+/*FIM - ajustes da navbar - posicao dos links - ajustes imagem do video no carousel*/

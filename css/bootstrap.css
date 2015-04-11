@@ -6223,7 +6223,8 @@ button.close {
   z-index: 15;
   width: 60%;
   padding-left: 0;
-  margin-left: -20%;
+  margin-top: 1%;
+  margin-left: 65%;
   text-align: center;
   list-style: none;
 }
