@@ -1839,13 +1839,6 @@ a.scroll:hover{
 	font-weight: bold;
 	text-shadow: 1px 1px #4B596C;
 }
-.height-carousel-slide1{
-	height: 300px;
-}
-.height-carousel-slide2,.height-carousel-slide3{
-	height: 180px;
-}
-
 
 /*
 	css copiado para que o estouro da navbar ocorra antes
@@ -1916,6 +1909,9 @@ a.scroll:hover{
 	.carousel-inner{
 		max-height: 448px;
 	}
+	.height-carousel-slide1,.height-carousel-slide2,.height-carousel-slide3{
+		height: 180px;
+	}
 }
 
 @media (max-width:1280px){
@@ -1972,6 +1968,9 @@ a.scroll:hover{
 	.carousel-inner{
 		max-height: 468px;
 	}
+	.carousel-inner h1{
+		font-size: 3em;
+	}
 }
 
 @media (max-width:991px){
@@ -1982,6 +1981,15 @@ a.scroll:hover{
 	}
 	.carousel-inner{
 		max-height: 448px;
+	}
+	.height-carousel-slide1,.height-carousel-slide3{
+		height: 200px;
+	}
+	.height-carousel-slide2{
+		height: 260px;
+	}
+	.carousel-inner h1{
+		font-size: 2em;
 	}
 }
 
@@ -2022,6 +2030,15 @@ a.scroll:hover{
 		height: 100px;
 		margin-left: -130px;
 	}
+	.carousel-inner{
+		max-height: 448px;
+	}
+	.height-carousel-slide1,.height-carousel-slide3{
+		height: 200px;
+	}
+	.height-carousel-slide2{
+		height: 280px;
+	}
 }
 
 @media (max-width:760px){
@@ -2033,6 +2050,9 @@ a.scroll:hover{
 		height: 178px;
 		margin-top: 20px;
 		margin-left: -250px;
+	}
+	.carousel-inner h1{
+		font-size: 2.5em;
 	}
 }
 
@@ -2052,11 +2072,17 @@ a.scroll:hover{
 		margin-top: 20px;
 		margin-left: -220px;
 	}
+	.carousel-inner{
+		max-height: 450px;
+	}
 }
 
 @media (max-width:500px){
 	.img-video-slide{
 		margin-left: -130px;
+	}
+	.carousel-inner h1{
+		font-size: 3em;
 	}
 }
 
@@ -2071,6 +2097,9 @@ a.scroll:hover{
 		width: 180px; 
 		height: 78px;
 		margin-left: -100px;
+	}
+	.carousel-inner h1{
+		font-size: 2.5em;
 	}
 }
 
