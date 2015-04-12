@@ -1883,7 +1883,8 @@ a.scroll:hover{
 }
 
 /*INICIO - ajustes da navbar - posicao dos links - ajustes imagem do video no carousel*/
-@media (max-width:1366px){
+
+@media (max-width:1920px){
 	.link-navbar{
 		margin-top: 110px;
 	}
