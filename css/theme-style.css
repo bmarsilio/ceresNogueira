@@ -1889,7 +1889,7 @@ a.scroll:hover{
 	}
 }
 
-/*FIM - ajustes da navbar - posicao dos links - ajustes imagem do video no carousel*/
+/*INICIO - ajustes da navbar - posicao dos links - ajustes imagem do video no carousel*/
 @media (max-width:1366px){
 	.link-navbar{
 		margin-top: 110px;
@@ -1901,6 +1901,7 @@ a.scroll:hover{
 		margin-top: 65px;
 	}
 	.youtube,.whatsapp,.facebook{
+		margin-top: 60px;
 		left: -180px;
 	}
 	.minus-header{
@@ -1953,6 +1954,7 @@ a.scroll:hover{
 		margin-top: 30px;
 	}
 	.youtube,.whatsapp,.facebook{
+		margin-top: 0px;
 		left: 0px;
 	}
 	.whatsapp{
