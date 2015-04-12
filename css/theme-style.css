@@ -334,80 +334,6 @@ body a{
 	width:100%;
 	min-height:520px;
 }
-/*----start-contact----*/
-.contact{
-	background: #2D3035;
-	font-family: 'Open Sans', sans-serif;
-	padding: 3.5em 0 7em;
-}
-.contact p i{
-	width:200px;
-	height:200px;
-	display:inline-block;
-	background:url(../images/msg-icon.png) no-repeat 0px 0px; 
-}
-.contact p{
-	text-align: center;
-	margin: 0;
-	padding: 3em 0 4em;
-}
-.contact span{
-	color: #FFF;
-	display: block;
-	font-size: 1.7em;
-	margin-bottom: 0.2em;
-	text-align: center;
-}
-.contact span label{
-	color: #C63A3D;
-	vertical-align: top;
-	margin-left: 0.1em;
-}
-.contact input[type="text"],.contact textarea{
-	border-radius: 4px;
-	font-family: 'Open Sans', sans-serif;
-	outline: none;
-	border: 2px solid #42454A;
-	transition: border-color 0.3s;
-	-o-transition: border-color 0.3s;
-	-ms-transition: border-color 0.3s;
-	-moz-transition: border-color 0.3s;
-	-webkit-transition: border-color 0.3s;
-	-webkit-appearance: none;
-	padding: 1.15em;
-	background: #2F3237;
-	color: #858B93;
-	width: 100%;
-	resize: none;
-	font-size: 1.3em;
-}
-.contact input[type="text"]:hover,.contact input[type="text"]:focus,.contact textarea:hover,.contact textarea:focus{
-	border: 2px solid #BE393C;
-}
-.contact-text-box div{
-	margin: 0 0 2em 0;
-}
-.contact textarea{
-	height: 213px;
-}
-.contact input[type="submit"]{
-	border-radius: 10px;
-	border:none;
-	float: right;
-	margin: 1em 0 0 0;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	text-transform: uppercase;
-	padding: 0.77em 2em;
-	font-size: 1.5em;
-	outline:none;
-	cursor:pointer;
-}
-.contact input[type="submit"]:hover{
-	background:#AC3335;
-}
 /*----start-footer----*/
 .footer{
 	background: #2A2D33;
@@ -1642,26 +1568,12 @@ img.mfp-img {
 	.pricetables {
 		padding: 1em 0 2em;
 	}
-	.contact {
-		/*padding: 0.5em 0 2em;*/
-	}
 	.slide-banner-left,.top-grid-center{
 		padding: 0;
 		margin: 0;
 	}
 	.footer ul li img {
 		padding: 0em 0 1em;
-	}
-	.contact p i {
-		width:100px;
-		height: 100px;
-		background-size:100% 100%;
-	}
-	.contact p {
-		padding: 2em 0 1em;
-	}
-	.contact textarea {
-		height:180px;
 	}
 	.header {
 		padding: 0.8em 0 0;
@@ -1732,7 +1644,7 @@ a.scroll:hover{
     text-align:center
 }
 
-.formCliente input[type="text"]:hover,.contact input[type="text"]:focus,input[type="email"]:hover,.contact input[type="email"]:focus,input[type="tel"]:hover,.contact input[type="tel"]:focus{
+.formCliente input[type="text"]:hover,input[type="email"]:hover,input[type="tel"]:hover{
 	border: 2px solid #CA3737;
 }
 
@@ -1822,7 +1734,7 @@ a.scroll:hover{
 }
 
 .font-tangerine{
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nova Round', cursive;
 	font-size: 2.9em;
 	font-weight: bold;
 }
