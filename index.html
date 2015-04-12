@@ -26,12 +26,16 @@
 
 		<script type="text/javascript">
 			jQuery(document).ready(function($) { 
-				//adicionar a todos 'a href' o efeito de scroll
+				//adiciona a todos 'a href' o efeito de scroll
 				$(".scroll-b").click(function(event){
 					//adiciona delay no scroll da pagina
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
 				});
+				//define o tempo intervalo para troca de slide no carousel
+				$('.carousel').carousel({
+					interval: 10000
+				})
 			});
 		</script>
 	</head>
@@ -132,7 +136,6 @@
 							
 							<div class="item active">
 								<div class="slide-banner-left" id="carousel-etapa-1">
-									<br />
 									<h1>Foca em você!</h1>
 									<br />
 									<h1>Faça como centenas de milhões de pessoas no Planeta!</h1>

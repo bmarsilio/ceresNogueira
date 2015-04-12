@@ -69,6 +69,7 @@ body a{
 /*----start-slide-banner---*/
 .slide-banner-left{
 	font-family: 'Enriqueta', serif;
+	padding-top: 5%;
 }
 .slide-banner-left h1{
 	color: #FFF;
