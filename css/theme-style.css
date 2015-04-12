@@ -1757,6 +1757,9 @@ a.scroll:hover{
 	text-shadow: 1px 1px #4B596C;
 }
 
+.fale-conosco-whatsapp{
+	color:#4B596C;
+}
 /*
 	css copiado para que o estouro da navbar ocorra antes
 	https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
