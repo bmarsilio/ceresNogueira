@@ -1721,7 +1721,7 @@ input[type="email"]:valid{
 }
 
 #carousel-etapa-3{
-	background:url(../images/slide3.jpg) no-repeat 0px 0px;
+	background:url(../images/slide8.jpg) no-repeat 0px 0px;
 	background-size: cover;
 }
 
@@ -1848,6 +1848,13 @@ input[type="email"]:valid{
 	.height-carousel-slide1,.height-carousel-slide2,.height-carousel-slide3{
 		height: 180px;
 	}
+
+	.formCliente{
+		height: 448px;
+	}
+	.img-carrinho{
+		margin-top:50px;
+	}
 }
 
 @media (max-width:1280px){
@@ -1907,6 +1914,12 @@ input[type="email"]:valid{
 	.carousel-inner h1{
 		font-size: 3em;
 	}
+	.formCliente{
+		height: 468px;
+	}
+	.img-carrinho{
+		margin-top:80px;
+	}
 }
 
 @media (max-width:991px){
@@ -1927,6 +1940,12 @@ input[type="email"]:valid{
 	.carousel-inner h1{
 		font-size: 2em;
 	}
+	.formCliente{
+		height: 460px;
+	}
+	.img-carrinho{
+		margin-top:50px;
+	}
 }
 
 @media (max-width:950px){
@@ -1935,6 +1954,9 @@ input[type="email"]:valid{
 	}
 	.first-link{
 		margin-top: 30px;
+	}
+	.img-carrinho{
+		margin-top:50px;
 	}
 }
 
@@ -2019,6 +2041,9 @@ input[type="email"]:valid{
 	}
 	.carousel-inner h1{
 		font-size: 3em;
+	}
+	.formCliente{
+		height: 350px;
 	}
 }
 
