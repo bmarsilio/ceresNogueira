@@ -1735,6 +1735,11 @@ input[type="email"]:valid{
 	background-size: cover;
 }
 
+#carousel-etapa-6{
+	background:url(../images/slide9.jpg) no-repeat 0px 0px;
+	background-size: cover;
+}
+
 #quemSomos{
 	background:url(../images/quemSomos.jpg) no-repeat 0px 0px;
 	background-size: cover;
