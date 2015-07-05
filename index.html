@@ -100,13 +100,21 @@
 				<!--start formCliente padrao cipnet-->
 				<div class="col-xs-12 col-sm-5 col-md-3 formCliente">
 					<br />
-					<!--
+					
 					<div class='_label text-center'>
 						<h1><strong>Efetue sua Inscrição</strong></h1>
+
+						<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+						<form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+							<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+							<input type="hidden" name="code" value="9AB840F72424DE71141DEFA0FCFFA6D3" />
+							<input class="img-responsive img-carrinho" type="image" src="images/shopping-cart.jpg" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!"  style="margin-left: -25px;"/>
+						</form>
+						<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 					</div>
-					-->
 
 					
+					<!--
 					<form action='http://www.cipmailing.com.br/12all/proc.php' method='post' id='_form_27753' accept-charset='utf-8' enctype='multipart/form-data' role="form">
 						<input type='hidden' name='f' value='27753'>
 						<input type='hidden' name='s' value=''>
@@ -161,7 +169,8 @@
 							</div>
 						</div>
 					</form>
-					
+					-->
+
 				</div>
 				<!--end formCliente-->
 
