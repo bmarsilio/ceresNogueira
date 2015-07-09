@@ -2070,3 +2070,7 @@ input[type="email"]:valid{
 }
 
 /*FIM - ajustes da navbar - posicao dos links - ajustes imagem do video no carousel*/
+
+input[type="image"]:focus {
+	outline: none;
+}
